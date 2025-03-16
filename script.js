@@ -19,10 +19,10 @@ button.addEventListener("click", async () => {
     botReply.classList.add("para1");
     botReply.innerHTML = `<b>...</b>`;
     container.appendChild(botReply);
-    container.scrollTop = container.scrollHeight;
+    
 
     try {
-        const response = await fetch("http://localhost:5000/chat", {
+        const response = await fetch("https://server-0.onrender.com/chat", {
             method: "POST",
             headers: { "Content-Type": "application/json" },
             body: JSON.stringify({ message: userInput }),
@@ -36,7 +36,7 @@ button.addEventListener("click", async () => {
         botReply.innerHTML = `<b>AI not responded</b>`;
     }
 
-    container.scrollTop = container.scrollHeight;
+  container.scrollTop=container.scrollHeight
 });
    
 

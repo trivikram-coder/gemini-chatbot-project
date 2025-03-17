@@ -40,7 +40,7 @@ body {
 
 .para {
     background-color: lightgreen;
-    color: black;
+    color: rgb(8, 7, 7);
     font-weight: 400;
     padding: 13px 15px;
     border-radius: 10px;

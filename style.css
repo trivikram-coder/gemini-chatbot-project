@@ -17,7 +17,7 @@ body {
 .chat-box {
     
     width: 600px;
-    height: 74vh;
+    height: 50vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;

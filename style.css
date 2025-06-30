@@ -17,7 +17,7 @@ body {
 .chat-box {
     
     width: 600px;
-    height: 50vh;
+    height: 74vh;
     background-color: #fff;
     display: flex;
     flex-direction: column;
@@ -100,7 +100,6 @@ body {
 
 .toggle{
     position: absolute;
-    
     color: white;
     font-size: 12px;
     padding: 8px;
@@ -124,7 +123,7 @@ body {
     font-family: 'Poppins', sans-serif;
     font-size: 16px;
     font-weight: 600;
-    background-color: #a60f0f;
+    background-color: #b02931;
     color: white;
     padding: 12px 24px;
     border: none;
@@ -152,7 +151,7 @@ body {
 }
 .button-delete:hover .toggle-del{
     opacity: 1;
-    background-color: red;
+    background-color: rgb(196, 58, 58);
     transform: scale(1.05);
 }
 .head-container{

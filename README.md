@@ -24,7 +24,7 @@ Styling: Plain CSS (no frameworks)
 bash
 Copy
 Edit
-git clone https://github.com/yourusername/gemini-chatbot.git
+git clone https://github.com/trivikram-coder/gemini-chatbot-project.git
 cd gemini-chatbot
 2. Install Backend Dependencies
 bash
